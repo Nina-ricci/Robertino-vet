@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robertino Ricci – Veterinario a Domicilio | Tucumán</title>
+    <meta name="description" content="Veterinario a domicilio en Tucumán. Consultas, vacunación, toma de muestras y análisis clínicos. Atención en San Miguel de Tucumán, Yerba Buena, Tafí Viejo y alrededores.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="nav-name">Robertino Ricci</span>
+                <span class="nav-tag">Veterinario a Domicilio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#zona">Zona</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#turnos" class="btn-nav">Sacar turno</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#zona">Zona</a>
+            <a href="#galeria">Galería</a>
+            <a href="#turnos">Sacar turno</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="label">Veterinario a Domicilio · Tucumán</p>
+            <h1>La salud de tu mascota,<br><span>donde vos estás</span></h1>
+            <p class="hero-desc">Atención veterinaria profesional en la comodidad de tu hogar. Sin estrés para tu animal, sin complicaciones para vos.</p>
+            <a href="https://wa.me/543816084333?text=Hola%20Robertino!%20Quisiera%20sacar%20un%20turno%20para%20una%20consulta%20veterinaria%20a%20domicilio." class="btn-whatsapp" target="_blank" rel="noopener">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Sacar un turno por WhatsApp
+            </a>
+        </div>
+        <div class="hero-img-wrap">
+            <!-- REEMPLAZAR: poner la foto principal de Robertino o de una mascota -->
+            <img src="fotos/hero.jpg" alt="Robertino Ricci, veterinario a domicilio en Tucumán" class="hero-img" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML += '<p>📷 Foto principal<br><small>Reemplazar con: fotos/hero.jpg</small></p>'">
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="container">
+            <div class="col-img">
+                <!-- REEMPLAZAR: poner foto de Robertino -->
+                <img src="fotos/robertino.jpg" alt="Robertino Ricci" class="perfil-img" onerror="this.parentElement.classList.add('placeholder', 'perfil-placeholder'); this.style.display='none'; this.parentElement.innerHTML += '<p>📷 Foto de Robertino<br><small>Reemplazar con: fotos/robertino.jpg</small></p>'">
+            </div>
+            <div class="col-text">
+                <p class="label">Sobre mí</p>
+                <h2>Hola, soy Robertino</h2>
+                <p>Soy médico veterinario con vocación por los animales y el trato cercano con cada familia. Me dedico a brindar atención veterinaria a domicilio porque creo que un animal en su entorno familiar está más tranquilo, y eso hace toda la diferencia en el diagnóstico y la recuperación.</p>
+                <p>Me muevo en moto por toda la capital tucumana y los alrededores para llegar donde me necesiten. Mi objetivo es simple: que tu mascota reciba la mejor atención sin tener que salir de casa.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-icon">🐾</span>
+                        <span>Animales de compañía</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-icon">🏍️</span>
+                        <span>Voy a tu domicilio</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-icon">📍</span>
+                        <span>Toda Tucumán</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="container-center">
+            <p class="label">Lo que ofrezco</p>
+            <h2>Servicios</h2>
+            <div class="servicios-grid">
+                <div class="card">
+                    <div class="card-icon">🩺</div>
+                    <h3>Consultas Veterinarias</h3>
+                    <p>Atención integral para tu mascota. Diagnóstico, tratamiento y seguimiento de cualquier problema de salud, en la comodidad de tu hogar.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💉</div>
+                    <h3>Planes de Vacunación</h3>
+                    <p>Diseño y aplicación de planes de vacunación personalizados según la especie, edad y estilo de vida de tu animal.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧪</div>
+                    <h3>Toma de Muestras</h3>
+                    <p>Extracción de sangre, orina u otras muestras sin necesidad de trasladar a tu mascota. Rápido, seguro y sin estrés.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔬</div>
+                    <h3>Análisis Clínicos</h3>
+                    <p>Interpretación de análisis clínicos para un diagnóstico preciso y oportuno del estado de salud de tu animal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ZONA -->
+    <section class="zona" id="zona">
+        <div class="container">
+            <div class="col-text">
+                <p class="label">Dónde trabajo</p>
+                <h2>Zona de cobertura</h2>
+                <p>Me muevo en moto por toda la capital tucumana y alrededores. Si tenés dudas de si llego a tu zona, escribime y lo coordinamos.</p>
+                <ul class="zona-list">
+                    <li>📍 San Miguel de Tucumán</li>
+                    <li>📍 Yerba Buena</li>
+                    <li>📍 Tafí Viejo</li>
+                    <li>📍 Y alrededores</li>
+                </ul>
+                <div class="zona-note">
+                    <strong>💡 Nota sobre el costo:</strong> El precio de la consulta puede variar según la distancia al domicilio. Escribime por WhatsApp para consultarme según tu ubicación.
+                </div>
+            </div>
+            <div class="col-map">
+                <iframe
+                    title="Zona de cobertura - Tucumán"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d115023!2d-65.2885!3d-26.8241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d18f3e4a8d3%3A0x7a98c2a3a86efba3!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1713657600000!5m2!1ses!2sar"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="galeria" id="galeria">
+        <div class="container-center">
+            <p class="label">En acción</p>
+            <h2>Galería</h2>
+            <div class="galeria-grid">
+                <!-- REEMPLAZAR: agregar fotos reales en la carpeta fotos/ -->
+                <div class="gal-item">
+                    <img src="fotos/galeria-1.jpg" alt="Atención veterinaria a domicilio" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML += '<p>📷 Foto 1<br><small>fotos/galeria-1.jpg</small></p>'">
+                </div>
+                <div class="gal-item">
+                    <img src="fotos/galeria-2.jpg" alt="Atención veterinaria a domicilio" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML += '<p>📷 Foto 2<br><small>fotos/galeria-2.jpg</small></p>'">
+                </div>
+                <div class="gal-item">
+                    <img src="fotos/galeria-3.jpg" alt="Atención veterinaria a domicilio" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML += '<p>📷 Foto 3<br><small>fotos/galeria-3.jpg</small></p>'">
+                </div>
+                <div class="gal-item">
+                    <img src="fotos/galeria-4.jpg" alt="Atención veterinaria a domicilio" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML += '<p>📷 Foto 4<br><small>fotos/galeria-4.jpg</small></p>'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TURNOS -->
+    <section class="turnos" id="turnos">
+        <div class="container-center">
+            <p class="label light">Agendá tu consulta</p>
+            <h2 class="light">¿Tu mascota necesita atención?</h2>
+            <p class="turnos-desc">Escribime por WhatsApp y coordinamos un horario que te quede cómodo. Respondo rápido.</p>
+            <a href="https://wa.me/543816084333?text=Hola%20Robertino!%20Quisiera%20sacar%20un%20turno%20para%20una%20consulta%20veterinaria%20a%20domicilio." class="btn-whatsapp large" target="_blank" rel="noopener">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Escribir por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <strong>Robertino Ricci</strong>
+                <span>Veterinario a Domicilio · Tucumán</span>
+            </div>
+            <nav class="footer-nav">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#zona">Zona</a>
+                <a href="https://wa.me/543816084333" target="_blank" rel="noopener">WhatsApp</a>
+            </nav>
+            <p class="footer-copy">© 2026 Robertino Ricci · Tucumán, Argentina</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+            const open = mobileMenu.classList.toggle('open');
+            hamburger.setAttribute('aria-expanded', open);
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+                hamburger.setAttribute('aria-expanded', false);
+            });
+        });
+    </script>
+</body>
+</html>
